@@ -1,4 +1,4 @@
-<h1 align="center">Applied Elasticity</h1>
+<h1 align="center">Applied Elasticity ( @jeevanjyoti4/elasticity)</h1>
 <h2 align="center">Implementation of Elasticity Problem in Juypter Notebook with SymPy</h2>
 
 [![DOI](https://zenodo.org/badge/215966846.svg)](https://zenodo.org/badge/latestdoi/215966846)
