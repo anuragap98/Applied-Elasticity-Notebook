@@ -1,41 +1,26 @@
 <h2 align="center">Implementation of Applied Elasticity Problem in Juypter Notebook with SymPy</h2>
 
 
-This is a repository of Jupyter Notebook files that are used to teach the second half of the course "Applied Elasticity" (ME40605/ME60401) in the Autumn Semester. This course is taken by the 1st year postgraduate students of Mechanical Engineering with specialization in "Mechanical Systems Design". It is also taken by the students of fourth year Dual Degree with the same specialization. It is also taken by a few Ph.D. students towards completion of their course work requirements.
+This is a repository of Jupyter Notebook files that I have used to solve the problems related to the course "Applied Elasticity" in the Autumn Semester. Since the derivation of the biharmonic equation in polar coordinates is rather long, I thought of using Jupyter Notebook and SymPy to programmatically derive the expressions. 
 
-Since the derivation of the biharmonic equation in polar coordinates is rather long, I thought of using Jupyter Notebook and SymPy to programmatically derive the expressions. 
+### 2D Elasticity in Polar Coordinates:
 
-## 2D Elasticity in Polar Coordinates
-
-We follow the development of the ideas as presented in the classic "Theory of Elasticity" by Timoshenko and Goodier, 3rd edition. 
+We follow the development of the ideas as presented in the classic "Theory of Elasticity" by Timoshenko and Goodier.
 
 * The file ["PolarCoordinates_Definitions.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/PolarCoordinates_Definitions.ipynb) is where all the transformations from the rectangular Cartesian coordinate system to the polar coordinate system required to obtain the biharmonic equation are set up. The stresses are also transformed from the rectangular Cartesian coordinate system to the polar coordinate system. <br>
 
-<br>
 
-* The functions defined in the file ["PolarCoordinates_Definitions.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/PolarCoordinates_Definitions.ipynb) are collected in [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py). These definitions will be invoked in the subsequent files by importing `polarUtilities`. 
+* The functions defined in the file ["PolarCoordinates_Definitions.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/PolarCoordinates_Definitions.ipynb) are collected in [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py). These definitions will be invoked in the subsequent files by importing `polarUtilities`. <br>
 
-<br>
 
 * The file ["Axisymmetric_PressureVessel.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Axisymmetric_PressureVessel.ipynb) addresses the set-up of axisymmetric problems with particular focus on the solution of the thick-walled pressure vessel problem. This file uses the [polarUtilities.py](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br>
-
-<br>
 
 
 * The file ["CurvedBar_PureBending_onlystress.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/CurvedBar_PureBending_onlystress.ipynb) addresses the problem of pure bending of a curved bar. This file uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br>
 
 
-<!--
-<br>
-
-* The file ["CurvedBar_HorizontalLoad.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/CurvedBar_HorizontalLoad.ipynb) addresses the problem of a curved bar with a horizontal shear load at one end with the other end clamped. This file too uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br>
-
-<br>
-
-* The fourth file ["Plate-CircularHole.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Plate-CircularHole.ipynb) addresses the classic problem of a plate with a small circular hole subjected to uniaxial tensile load. This file again uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file.  <br>
-
-5. The fifth file ["Flamant.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Flamant.ipynb) addresses another classic problem of a vertical point loading on an infinite half space. This file uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br>
+* The other file ["Flamant.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Flamant.ipynb) addresses another classic problem of a vertical point loading on an infinite half space. This file uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br>
    
--->
+
 <p align="center">Contribution -> (https://github.com/jeevanjyoti4/elasticity)</p>
 
