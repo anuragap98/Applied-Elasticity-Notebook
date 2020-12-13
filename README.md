@@ -1,5 +1,4 @@
-<h1 align="center">Applied Elasticity ( https://github.com/jeevanjyoti4/elasticity)</h1>
-<h2 align="center">Implementation of Elasticity Problem in Juypter Notebook with SymPy</h2>
+<h2 align="center">Implementation of Applied Elasticity Problem in Juypter Notebook with SymPy</h2>
 
 [![DOI](https://zenodo.org/badge/215966846.svg)](https://zenodo.org/badge/latestdoi/215966846)
 
@@ -40,3 +39,4 @@ We follow the development of the ideas as presented in the classic "Theory of El
 5. The fifth file ["Flamant.ipynb"](https://nbviewer.jupyter.org/github/jeevanjyoti4/elasticity/blob/master/Flamant.ipynb) addresses another classic problem of a vertical point loading on an infinite half space. This file uses the [polarUtilities.py](https://github.com/jeevanjyoti4/elasticity/blob/master/polarUtilities.py) file. <br><br>Here is the binder link to launch the fifth file: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jeevanjyoti4/elasticity/master?filepath=Flamant.ipynb) 
    
 -->
+
